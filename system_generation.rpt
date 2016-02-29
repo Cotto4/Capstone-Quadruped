@@ -1,0 +1,102 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/ --output-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/ --report-file=bsf:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE22F17C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.qsys
+Progress: Loading DE0NANO/system.qsys
+Progress: Reading input file
+Progress: Adding clk_sys [clock_source 12.1]
+Progress: Parameterizing module clk_sys
+Progress: Adding cpu [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.1]
+Progress: Parameterizing module sdram
+Progress: Adding epcs_flash_controller [altera_avalon_epcs_flash_controller 12.1]
+Progress: Parameterizing module epcs_flash_controller
+Progress: Adding sys_clk_timer [altera_avalon_timer 12.1]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding uart_0 [altera_avalon_uart 12.1]
+Progress: Parameterizing module uart_0
+Progress: Adding pio_led_green [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_led_green
+Progress: Adding pio_key [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_key
+Progress: Adding pio_sw [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_sw
+Progress: Adding dm9000e [dm9000e 1.2]
+Progress: Parameterizing module dm9000e
+Progress: Adding spi_0 [altera_avalon_spi 12.1]
+Progress: Parameterizing module spi_0
+Progress: Adding pio_vscodec [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_vscodec
+Progress: Adding pio_int3 [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_int3
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/ --output-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.sopcinfo --report-file=html:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.html --report-file=qip:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/system.qip --report-file=cmp:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.cmp --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE22F17C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.qsys
+Progress: Loading DE0NANO/system.qsys
+Progress: Reading input file
+Progress: Adding clk_sys [clock_source 12.1]
+Progress: Parameterizing module clk_sys
+Progress: Adding cpu [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.1]
+Progress: Parameterizing module sdram
+Progress: Adding epcs_flash_controller [altera_avalon_epcs_flash_controller 12.1]
+Progress: Parameterizing module epcs_flash_controller
+Progress: Adding sys_clk_timer [altera_avalon_timer 12.1]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding uart_0 [altera_avalon_uart 12.1]
+Progress: Parameterizing module uart_0
+Progress: Adding pio_led_green [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_led_green
+Progress: Adding pio_key [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_key
+Progress: Adding pio_sw [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_sw
+Progress: Adding dm9000e [dm9000e 1.2]
+Progress: Parameterizing module dm9000e
+Progress: Adding spi_0 [altera_avalon_spi 12.1]
+Progress: Parameterizing module spi_0
+Progress: Adding pio_vscodec [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_vscodec
+Progress: Adding pio_int3 [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_int3
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: system: Generating system "system" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 14 modules, 58 connections
+Info: No custom instruction connections, skipping transform 
+Error: dm9000e_s1_translator.avalon_anti_slave_0: Cannot connect dm9000e_s1_translator.reset because dm9000e.reset is not connected 
+Info: merlin_translator_transform: After transform: 29 modules, 116 connections
+Info: merlin_domain_transform: After transform: 58 modules, 314 connections
+Info: merlin_router_transform: After transform: 73 modules, 374 connections
+Info: merlin_traffic_limiter_transform: After transform: 75 modules, 384 connections
+Info: merlin_burst_transform: After transform: 76 modules, 388 connections
+Info: reset_adaptation_transform: After transform: 77 modules, 304 connections
+Info: merlin_network_to_switch_transform: After transform: 106 modules, 364 connections
+Info: merlin_width_transform: After transform: 108 modules, 370 connections
+Info: limiter_update_transform: After transform: 108 modules, 372 connections
+Info: merlin_interrupt_mapper_transform: After transform: 109 modules, 375 connections
+Warning: system: "No matching role found for epcs_flash_controller:epcs_control_port:endofpacket (endofpacket)"
+Warning: system: "No matching role found for epcs_flash_controller:epcs_control_port:dataavailable (dataavailable)"
+Warning: system: "No matching role found for epcs_flash_controller:epcs_control_port:readyfordata (readyfordata)"
+Warning: system: "No matching role found for uart_0:s1:dataavailable (dataavailable)"
+Warning: system: "No matching role found for uart_0:s1:readyfordata (readyfordata)"
+Error: Generation stopped, 97 or more modules remaining
+Info: system: Done system" with 36 modules, 1 files, 517475 bytes
+Error: ip-generate failed with exit code 1: 2 Errors, 5 Warnings
+Info: Finished: Create HDL design files for synthesis

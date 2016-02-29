@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Feb 22 14:02:22 2016
+Quartus II 32-bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Full Version
+Revision Name : de0_nano_system
+Top-level Entity Name : de0_nano_system
+Family : Cyclone IV E
+Total logic elements : 4,735
+    Total combinational functions : 3,838
+    Dedicated logic registers : 2,858
+Total registers : 2858
+Total pins : 89
+Total virtual pins : 0
+Total memory bits : 125,312
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 1

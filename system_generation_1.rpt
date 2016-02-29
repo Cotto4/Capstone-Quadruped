@@ -1,0 +1,246 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/ --output-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/ --report-file=bsf:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE22F17C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.qsys
+Progress: Loading DE0NANO/system.qsys
+Progress: Reading input file
+Progress: Adding clk_sys [clock_source 12.1]
+Progress: Parameterizing module clk_sys
+Progress: Adding cpu [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.1]
+Progress: Parameterizing module sdram
+Progress: Adding epcs_flash_controller [altera_avalon_epcs_flash_controller 12.1]
+Progress: Parameterizing module epcs_flash_controller
+Progress: Adding sys_clk_timer [altera_avalon_timer 12.1]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding uart_0 [altera_avalon_uart 12.1]
+Progress: Parameterizing module uart_0
+Progress: Adding pio_led_green [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_led_green
+Progress: Adding pio_key [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_key
+Progress: Adding pio_sw [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_sw
+Progress: Adding dm9000e [dm9000e 1.2]
+Progress: Parameterizing module dm9000e
+Progress: Adding spi_0 [altera_avalon_spi 12.1]
+Progress: Parameterizing module spi_0
+Progress: Adding pio_vscodec [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_vscodec
+Progress: Adding pio_int3 [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_int3
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/ --output-directory=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.sopcinfo --report-file=html:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.html --report-file=qip:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/system.qip --report-file=cmp:/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.cmp --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE22F17C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=/afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system.qsys
+Progress: Loading DE0NANO/system.qsys
+Progress: Reading input file
+Progress: Adding clk_sys [clock_source 12.1]
+Progress: Parameterizing module clk_sys
+Progress: Adding cpu [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding sdram [altera_avalon_new_sdram_controller 12.1]
+Progress: Parameterizing module sdram
+Progress: Adding epcs_flash_controller [altera_avalon_epcs_flash_controller 12.1]
+Progress: Parameterizing module epcs_flash_controller
+Progress: Adding sys_clk_timer [altera_avalon_timer 12.1]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding uart_0 [altera_avalon_uart 12.1]
+Progress: Parameterizing module uart_0
+Progress: Adding pio_led_green [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_led_green
+Progress: Adding pio_key [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_key
+Progress: Adding pio_sw [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_sw
+Progress: Adding dm9000e [dm9000e 1.2]
+Progress: Parameterizing module dm9000e
+Progress: Adding spi_0 [altera_avalon_spi 12.1]
+Progress: Parameterizing module spi_0
+Progress: Adding pio_vscodec [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_vscodec
+Progress: Adding pio_int3 [altera_avalon_pio 12.1]
+Progress: Parameterizing module pio_int3
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: system: Generating system "system" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 14 modules, 59 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 29 modules, 118 connections
+Info: merlin_domain_transform: After transform: 58 modules, 313 connections
+Info: merlin_router_transform: After transform: 73 modules, 372 connections
+Info: merlin_traffic_limiter_transform: After transform: 75 modules, 382 connections
+Info: merlin_burst_transform: After transform: 76 modules, 386 connections
+Info: reset_adaptation_transform: After transform: 77 modules, 306 connections
+Info: merlin_network_to_switch_transform: After transform: 106 modules, 366 connections
+Info: merlin_width_transform: After transform: 108 modules, 372 connections
+Info: limiter_update_transform: After transform: 108 modules, 374 connections
+Info: merlin_interrupt_mapper_transform: After transform: 109 modules, 377 connections
+Warning: system: "No matching role found for epcs_flash_controller:epcs_control_port:endofpacket (endofpacket)"
+Warning: system: "No matching role found for epcs_flash_controller:epcs_control_port:dataavailable (dataavailable)"
+Warning: system: "No matching role found for epcs_flash_controller:epcs_control_port:readyfordata (readyfordata)"
+Warning: system: "No matching role found for uart_0:s1:dataavailable (dataavailable)"
+Warning: system: "No matching role found for uart_0:s1:readyfordata (readyfordata)"
+Info: cpu: Starting RTL generation for module 'system_cpu'
+Info: cpu:   Generation command is [exec /OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /OPT/altera/12.1/tools/quartus/common/ip/altera/common/perl/5.8.3 -I /OPT/altera/12.1/tools/quartus/sopc_builder/bin/europa -I /OPT/altera/12.1/tools/quartus/sopc_builder/bin/perl_lib -I /OPT/altera/12.1/tools/quartus/sopc_builder/bin -I /OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip/altera_nios2 -I /OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip/altera_nios2 -- /OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=system_cpu --dir=/tmp/alt6852_3402175783287580451.dir/0002_cpu_gen/ --quartus_dir=/OPT/altera/12.1/tools/quartus --verilog --config=/tmp/alt6852_3402175783287580451.dir/0002_cpu_gen//system_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu: # 2016.02.21 15:32:59 (*) Starting Nios II generation
+Info: cpu: # 2016.02.21 15:32:59 (*)   Checking for plaintext license.
+Info: cpu: # 2016.02.21 15:32:59 (*)   Couldn't query license setup in Quartus directory /OPT/altera/12.1/tools/quartus
+Info: cpu: # 2016.02.21 15:32:59 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2016.02.21 15:33:00 (*)   Plaintext license not found.
+Info: cpu: # 2016.02.21 15:33:00 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2016.02.21 15:33:00 (*)   Couldn't query license setup in Quartus directory /OPT/altera/12.1/tools/quartus
+Info: cpu: # 2016.02.21 15:33:00 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2016.02.21 15:33:00 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2016.02.21 15:33:00 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2016.02.21 15:33:01 (*)   Creating all objects for CPU
+Info: cpu: # 2016.02.21 15:33:01 (*)     Testbench
+Info: cpu: # 2016.02.21 15:33:01 (*)     Instruction decoding
+Info: cpu: # 2016.02.21 15:33:01 (*)       Instruction fields
+Info: cpu: # 2016.02.21 15:33:01 (*)       Instruction decodes
+Info: cpu: # 2016.02.21 15:33:01 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2016.02.21 15:33:01 (*)       Instruction controls
+Info: cpu: # 2016.02.21 15:33:01 (*)     Pipeline frontend
+Info: cpu: # 2016.02.21 15:33:01 (*)     Pipeline backend
+Info: cpu: # 2016.02.21 15:33:04 (*)   Generating RTL from CPU objects
+Info: cpu: # 2016.02.21 15:33:07 (*)   Creating encrypted RTL
+Info: cpu: # 2016.02.21 15:33:08 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'system_cpu'
+Info: cpu: "system" instantiated altera_nios2_qsys "cpu"
+Info: sysid: "system" instantiated altera_avalon_sysid_qsys "sysid"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0004_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0004_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0004_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0004_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0004_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+.
+# 2016.02.21 15:33:12 (*) Running Test Generator Program for system_sdram
+# 2016.02.21 15:33:13 (*) Success: sopc_builder finished.
+Info: sdram: "system" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0005_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0005_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0005_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0005_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0005_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:18 (*) Success: sopc_builder finished.
+Info: epcs_flash_controller: "system" instantiated altera_avalon_epcs_flash_controller "epcs_flash_controller"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0006_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0006_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0006_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0006_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0006_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:21 (*) Success: sopc_builder finished.
+Info: sys_clk_timer: "system" instantiated altera_avalon_timer "sys_clk_timer"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0007_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0007_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0007_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0007_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0007_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:25 (*) Success: sopc_builder finished.
+Info: uart_0: "system" instantiated altera_avalon_uart "uart_0"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0008_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0008_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0008_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0008_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0008_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:29 (*) Success: sopc_builder finished.
+Info: pio_led_green: "system" instantiated altera_avalon_pio "pio_led_green"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0009_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0009_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0009_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0009_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0009_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:32 (*) Success: sopc_builder finished.
+Info: pio_key: "system" instantiated altera_avalon_pio "pio_key"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0010_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0010_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0010_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0010_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0010_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:35 (*) Success: sopc_builder finished.
+Info: pio_sw: "system" instantiated altera_avalon_pio "pio_sw"
+Info: dm9000e: "system" instantiated dm9000e "dm9000e"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0011_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0011_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0011_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0011_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0011_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:39 (*) Success: sopc_builder finished.
+Info: spi_0: "system" instantiated altera_avalon_spi "spi_0"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0012_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0012_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0012_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0012_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0012_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:43 (*) Success: sopc_builder finished.
+Info: pio_vscodec: "system" instantiated altera_avalon_pio "pio_vscodec"
+Info: Starting classic module elaboration.
+"/OPT/altera/12.1/tools/quartus/linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0013_sopclgen  --no_splash --refresh /tmp/alt6852_3402175783287580451.dir/0013_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus" --sopc_perl="/OPT/altera/12.1/tools/quartus/linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus/../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: /OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6852_3402175783287580451.dir/0013_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+"/OPT/altera/12.1/tools/quartus//linux/jre/bin/java" -Xmx512M -classpath "/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_builder.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/PinAssigner.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/sopc_wizard.jar:/OPT/altera/12.1/tools/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/OPT/altera/12.1/tools/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6852_3402175783287580451.dir/0013_sopclgen  --generate /tmp/alt6852_3402175783287580451.dir/0013_sopclgen/yysystem.v --quartus_dir="/OPT/altera/12.1/tools/quartus/" --sopc_perl="/OPT/altera/12.1/tools/quartus//linux/perl" --sopc_lib_path="++/OPT/altera/12.1/tools/quartus//../ip/altera/sopc_builder_ip+/OPT/altera/12.1/tools/quartus//../ip/altera/nios2_ip"
+.
+# 2016.02.21 15:33:46 (*) Success: sopc_builder finished.
+Info: pio_int3: "system" instantiated altera_avalon_pio "pio_int3"
+Info: cpu_instruction_master_translator: "system" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info: cpu_jtag_debug_module_translator: "system" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info: cpu_instruction_master_translator_avalon_universal_master_0_agent: "system" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "system" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "system" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "system" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "system" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "system" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "system" instantiated altera_merlin_router "id_router_001"
+Info: id_router_002: "system" instantiated altera_merlin_router "id_router_002"
+Info: limiter: "system" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "system" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "system" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "system" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_002: "system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: "system" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file /afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "system" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file /afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "system" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file /afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: Reusing file /afs/ualberta.ca/home/c/b/cbotto/Documents/ECE492_Lab/DE0NANO/system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: irq_mapper: "system" instantiated altera_irq_mapper "irq_mapper"
+Info: system: Done system" with 36 modules, 138 files, 2749441 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
