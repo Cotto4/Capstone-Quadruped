@@ -1,3 +1,9 @@
+# File is influenced as per the licensing information below.
+# Code is heavily modified from the original version,
+# but still maintains many of the functions necessary
+# to allow ODE to properly run
+
+
 # Copyright (c) 2007, Matt Heinzen
 # All rights reserved.
 #
